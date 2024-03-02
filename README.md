@@ -1,7 +1,5 @@
 ![Capa](https://github.com/Souzzagabe/desafio_voluntario/assets/123908995/70110203-69f3-416f-9ac2-f621f07649a4)
 
-O desafio consiste em:
-
 # Desafio Front end
 
 ### O desafio consiste em: ✨
@@ -21,11 +19,11 @@ Iremos avaliar sua capacidade de escrever código limpo, a estrutura e a aplica�
 5. Implementar pelo menos 1 teste e registrar no Readme
 6. Readme
 
-### Recursos**:**
+### Recursos:
 
 Acesse este link do Figma para ter acesso ao layout 
 
-### Ferramentas requeridas**:**
+### Ferramentas requeridas:
 
 1. React, Gatsby ou Next.js
 2. Styled-components
