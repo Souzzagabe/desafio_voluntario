@@ -4,7 +4,7 @@ O desafio consiste em:
 
 # Desafio Front end
 
-### Boas-vindas ao desafio Front-end da Lacrei Saúde ✨
+### O desafio consiste em: ✨
 
 ### **O que fazer e qual objetivo do nosso desafio:**
 
