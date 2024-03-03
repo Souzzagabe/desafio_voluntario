@@ -30,16 +30,16 @@ const ListFooter = () => {
         <C.SectionTitle>Lacrei Saúde</C.SectionTitle>
         <ul>
           <li>
-            <a href="#">Acessibilidade</a>
+            <a href="#">Quem Somos</a>
           </li>
           <li>
-            <a href="#">Quem Somos</a>
+            <a href="#">Nosso Propósito</a>
           </li>
           <li>
             <a href="#">Missão, Visão e Valor</a>
           </li>
           <li>
-            <a href="#">Nosso Propósito</a>
+            <a href="#">Acessibilidade</a>
           </li>
         </ul>
       </C.Section>

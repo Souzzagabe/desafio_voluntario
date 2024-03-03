@@ -1,24 +1,23 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import * as C from "./Header.Styles";
-import logo from "../../assets/images/logo.png"; 
+import logo from "../../assets/images/logo.png";
 
-const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const Header: React.FC = () => {
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    console.log(menuOpen);
   };
   
   return (
-    <C.Header>
+    <C.Header data-testid="header">
       <C.Img src={logo} alt="Logo Lacrei Saúde" />
-      <C.Nav className={menuOpen ? "open" : ""}>
+      <C.Nav data-testid="nav" className={menuOpen ? "open" : ""}>
         <button type="button">Quem Somos</button>
         <button type="button">Ajuda</button>
         <button type="button" className="enterButton">Entrar</button>
       </C.Nav>
-      <C.HamburgerMenu onClick={toggleMenu}>
+      <C.HamburgerMenu data-testid="hamburger-menu" onClick={toggleMenu}>
         <div></div>
         <div></div>
         <div></div>

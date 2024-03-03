@@ -7,7 +7,7 @@ export const Content = styled.div`
   margin-top: 60px;
   margin-bottom: 60px;
   border-bottom: 1px solid #B2DFD0;
-  gap: 294px;
+  gap: 205px;
 
   @media (max-width: 1170px) { 
     margin-bottom: 10px;
@@ -31,7 +31,8 @@ export const Social = styled.div`
   ul {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 40px;
+    margin-top: 18px;
   }
 
   li {
@@ -62,6 +63,7 @@ export const Links = styled.div`
     font-size: 1rem;
     line-height: 40px;
     color: rgb(31, 31, 31);
+    
   }
 
   @media (max-width: 790px) {

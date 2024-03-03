@@ -28,7 +28,7 @@ export const Nav = styled.nav`
  
   button {
     margin-left: 16px;
-    width: 174px;
+    width: 117px;
     height: 48px;
     font-weight: 700;
     font-size: 18px;
@@ -59,22 +59,23 @@ export const Nav = styled.nav`
   }
 
   @media (max-width: 770px) {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 40px;
-    padding: 40px;
-    background-color: #fff;
-    height: 400px;
-    z-index: 10;
-    border-left: 4px solid #018762;
-    border-right: 4px solid #018762;
-    border-bottom: 4px solid #018762;
-    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.3),
-      /* Sombra para a direita */ -8px 0px 10px rgba(0, 0, 0, 0.3),
-      /* Sombra para a esquerda */ 0px 30px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 0px 0px 8px 8px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 98%;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #fff;
+  height: 400px;
+  z-index: 10;
+  border-left: 4px solid #018762;
+  border-right: 4px solid #018762;
+  border-bottom: 4px solid #018762;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3),
+    1px 2px 0px rgba(0, 0, 0, 0.3),
+    1px 20px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 8px 8px;
+  border-top: none;
 
 
     button {
@@ -95,8 +96,8 @@ export const Nav = styled.nav`
 `;
 
 export const Img = styled.img`
-  width: 202px;
-  height: 24px;
+  width: 203px;
+  height: 25px;
   cursor: pointer;
 
   @media (max-width: 955px) {

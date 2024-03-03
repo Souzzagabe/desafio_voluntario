@@ -5,6 +5,8 @@ export const Infos = styled.div`
   display: flex;
   align-items: top;
   justify-content: center;
+  margin-top: 20px;
+
   
   @media (max-width: 1170px) {
     align-items: center;
@@ -16,10 +18,12 @@ export const Infos = styled.div`
 export const InfosText = styled.div`
   width: 1020px;
   height: 95px;
+
   p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 24px;
+    color: #515151;
   }
 
   p:last-child {
@@ -74,6 +78,7 @@ export const ButtonScroll = styled.button`
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    margin-top: 13px;
   }
 `;

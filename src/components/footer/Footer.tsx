@@ -4,7 +4,7 @@ import InfoFooter from "./infos/InfoFooter";
 
 const Footer = () => {
   return (
-    <C.Footer>
+    <C.Footer data-testid="footer">
      <ListFooter/>
      <InfoFooter/>
     </C.Footer>

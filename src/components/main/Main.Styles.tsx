@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   background-color: linear-gradient(180deg, #F5FFFB 0%, #FFFFFF 100%);
+  margin-top: 48px;
+  
 ;
 `;
 
@@ -19,7 +21,7 @@ export const Content = styled.div`
 `;
 
 export const Text = styled.div`
-  margin: 80px auto;
+  margin-top: 80px;
   width: 488px;
   height: 330px;
 
@@ -59,9 +61,10 @@ export const Img = styled.img`
     width: 400px;
     height: auto;
   }
-  @media (max-width: 430px) {
+  @media (max-width: 462px) {
     width: 300px;
     height: auto;
+    margin-top: 200px;
   }
 `;
 
