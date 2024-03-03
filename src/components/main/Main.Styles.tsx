@@ -17,6 +17,7 @@ export const Content = styled.div`
     align-items: center;
     text-align: center;
     gap: 0;
+    margin-top: 80px;
   }
 `;
 
@@ -41,6 +42,7 @@ export const Text = styled.div`
     width: auto;
     max-width: 80%;
     height: 300px;
+    margin-top: auto;
   }
 `;
 
@@ -64,7 +66,7 @@ export const Img = styled.img`
   @media (max-width: 462px) {
     width: 300px;
     height: auto;
-    margin-top: 200px;
+    margin-top: 230px;
   }
 `;
 

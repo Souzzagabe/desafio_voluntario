@@ -112,7 +112,7 @@ export const HamburgerMenu = styled.div`
   cursor: pointer;
   position: absolute;
   top: 24px;
-  right: 40px;
+  right: 20px;
 
   div {
     width: 35px;

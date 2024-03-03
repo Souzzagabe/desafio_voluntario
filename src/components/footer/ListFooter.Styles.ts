@@ -38,6 +38,10 @@ export const Social = styled.div`
   li {
     display: flex;
   }
+  @media (max-width: 1124px) {
+    align-items: center;
+  }
+  
 `;
 
 export const Links = styled.div`
@@ -70,6 +74,7 @@ export const Links = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 10px;
   }
 `;
 
