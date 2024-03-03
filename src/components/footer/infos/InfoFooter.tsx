@@ -1,6 +1,13 @@
 import * as C from "./InfoFooter.Styles";
 import btnScroll from "../../../assets/images/btnscroll.png";
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
+
 const InfoFooter = () => {
   return (
     <C.Infos>
@@ -18,7 +25,7 @@ const InfoFooter = () => {
           51.265.351/0001-65
         </p>
       </C.InfosText>
-      <C.ButtonScroll type="button">
+      <C.ButtonScroll type="button" onClick={scrollToTop}>
         <img src={btnScroll} alt="Botão de rolagem" />
       </C.ButtonScroll>
     </C.Infos>
