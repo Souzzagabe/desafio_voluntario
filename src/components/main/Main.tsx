@@ -14,8 +14,8 @@ const Main = () => {
             profissionais da Lacrei Saúde.{" "}
           </p>
           <C.ButtonMain>
-            <button></button>
-            <button></button>
+            <button>Buscar atendimento</button>
+            <button>Oferecer atendimento</button>
           </C.ButtonMain>
         </C.Text>
 

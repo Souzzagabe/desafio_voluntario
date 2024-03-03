@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-  width: 1440px;
-  background-color: #fafffd;
-  width: 1440px;
+  width: 100%;
+  background-color: linear-gradient(180deg, #F5FFFB 0%, #FFFFFF 100%);
+;
   height: 96px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 162px;
+  padding: 24px 138px;
 
   @media (max-width: 770px) {
     padding: 24px 20px;
@@ -81,7 +81,8 @@ export const Nav = styled.nav`
 
   @media (max-width: 955px) {
     button {
-      font-size: 14px;
+      font-size: 16px;
+      
     }
   }
 `;
@@ -114,5 +115,6 @@ export const HamburgerMenu = styled.div`
 
   @media (max-width: 770px) {
     display: flex;
+    z-index: 10;
   }
 `;

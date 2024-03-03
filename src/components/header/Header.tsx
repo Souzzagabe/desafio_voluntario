@@ -7,8 +7,9 @@ const Header = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    console.log(menuOpen);
   };
-
+  
   return (
     <C.Header>
       <C.Img src={logo} alt="Logo Lacrei Saúde" />

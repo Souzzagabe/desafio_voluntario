@@ -1,6 +1,7 @@
 import Header from './components/header/Header';
 import * as C from './App.Styles';
 import  Main  from './components/main/Main';
+import  Footer  from './components/footer/Footer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
         <Header />
         <Main/>
+        <Footer/>
 
     </C.Container>
   );
