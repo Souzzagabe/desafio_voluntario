@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const Main = styled.main`
   background-color: linear-gradient(180deg, #F5FFFB 0%, #FFFFFF 100%);
   margin-top: 48px;
-  
 ;
+@media (max-width: 770px) {
+    margin-top: 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -19,6 +21,8 @@ export const Content = styled.div`
     gap: 0;
     margin-top: 80px;
   }
+
+
 `;
 
 export const Text = styled.div`
