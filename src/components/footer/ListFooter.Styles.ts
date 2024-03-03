@@ -8,6 +8,12 @@ export const Content = styled.div`
   margin-bottom: 60px;
   border-bottom: 1px solid #B2DFD0;
   gap: 300px;
+
+
+  @media (max-width: 1170px) { 
+    margin-bottom: 10px;
+
+  }
 ;
 
   @media (max-width: 1122px) {
@@ -16,6 +22,7 @@ export const Content = styled.div`
     justify-content: center;
     align-items: center;
     height: auto;
+    gap: 50px;
   }
 `;
 
@@ -44,6 +51,7 @@ export const Links = styled.div`
     display: flex;
     flex-direction: column;
     list-style: none;
+    margin-bottom: 40px;
   }
 
   li {

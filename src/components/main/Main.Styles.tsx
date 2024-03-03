@@ -54,6 +54,15 @@ export const Img = styled.img`
     height: auto;
     margin-top: 100px;
   }
+
+  @media (max-width: 690px) {
+    width: 400px;
+    height: auto;
+  }
+  @media (max-width: 430px) {
+    width: 300px;
+    height: auto;
+  }
 `;
 
 export const ButtonMain = styled.div`
@@ -104,6 +113,7 @@ export const ButtonMain = styled.div`
       width: 100%;
       max-width: 300px;
       margin-bottom: 16px;
+      margin-right: 0;
     }
 
     button:nth-child(2) {

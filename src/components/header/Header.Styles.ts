@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.div`
   width: 100%;
-  background-color: linear-gradient(180deg, #F5FFFB 0%, #FFFFFF 100%);
-;
+  background-color: linear-gradient(180deg, #f5fffb 0%, #ffffff 100%);
   height: 96px;
   display: flex;
   align-items: center;
@@ -26,7 +25,7 @@ export const Nav = styled.nav`
   height: 48px;
   align-items: center;
   display: flex;
-
+ 
   button {
     margin-left: 16px;
     width: 174px;
@@ -62,12 +61,21 @@ export const Nav = styled.nav`
   @media (max-width: 770px) {
     display: none;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     margin-top: 40px;
     padding: 40px;
     background-color: #fff;
     height: 400px;
+    z-index: 10;
+    border-left: 4px solid #018762;
+    border-right: 4px solid #018762;
+    border-bottom: 4px solid #018762;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.3),
+      /* Sombra para a direita */ -8px 0px 10px rgba(0, 0, 0, 0.3),
+      /* Sombra para a esquerda */ 0px 30px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 8px 8px;
+
 
     button {
       margin: 10px 0;
@@ -82,7 +90,6 @@ export const Nav = styled.nav`
   @media (max-width: 955px) {
     button {
       font-size: 16px;
-      
     }
   }
 `;
@@ -97,14 +104,13 @@ export const Img = styled.img`
     height: auto;
   }
 `;
-
 export const HamburgerMenu = styled.div`
   display: none;
   flex-direction: column;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 24px;
-  right: 20px;
+  right: 40px;
 
   div {
     width: 35px;
@@ -115,6 +121,6 @@ export const HamburgerMenu = styled.div`
 
   @media (max-width: 770px) {
     display: flex;
-    z-index: 10;
   }
+
 `;
