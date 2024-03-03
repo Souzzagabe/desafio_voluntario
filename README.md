@@ -1,6 +1,8 @@
 ![Capa](https://github.com/Souzzagabe/desafio_voluntario/assets/123908995/70110203-69f3-416f-9ac2-f621f07649a4)
 
 
+
+
 Testes realizados nos componentes projeto:
 
 App:
@@ -29,6 +31,9 @@ Footer:
 Resultado Esperado: 
 O componente Footer é renderizado corretamente, com o elemento do rodapé presente na interface.
 Este teste cobre a renderização básica do componente Footer, garantindo que ele seja exibido corretamente na interface.
+
+
+
 
 
 
