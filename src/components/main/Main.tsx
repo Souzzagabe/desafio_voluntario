@@ -18,9 +18,7 @@ const Main = () => {
             <button>Oferecer atendimento</button>
           </C.ButtonMain>
         </C.Text>
-
         <C.Img src={imgMain} alt="Imagem de uma médica e uma enfermeira">
-            
         </C.Img>
       </C.Content>
     </C.Main>

@@ -11,9 +11,7 @@ export const Footer = styled.footer`
 
   @media (max-width: 1170px) {
    height: auto;
-
   }
- 
 `;
 
 

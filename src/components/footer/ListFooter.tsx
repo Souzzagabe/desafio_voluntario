@@ -1,11 +1,9 @@
+import * as C from "./ListFooter.Styles";
 import footerImg from "../../assets/images/footerImg.png";
 import facebook from "../../assets/images/facebook.png"; 
 import linkedin from "../../assets/images/linkedin.png"; 
 import msg from "../../assets/images/msg.png"; 
 import instagram from "../../assets/images/instagram.png"; 
-import * as C from "./ListFooter.Styles";
-
-
 
 const ListFooter = () => {
   return (
@@ -17,13 +15,13 @@ const ListFooter = () => {
           <a href="#"><img src={facebook} alt="Facebook" /></a>
         </li>
         <li>
+          <a href="#"><img src={instagram} alt="Instagram" /></a>
+        </li>
+        <li>
           <a href="#"><img src={linkedin} alt="LinkedIn" /></a>
         </li>
         <li>
           <a href="#"><img src={msg} alt="Mensagem" /></a>
-        </li>
-        <li>
-          <a href="#"><img src={instagram} alt="Instagram" /></a>
         </li>
       </ul>
     </C.Social>

@@ -104,6 +104,7 @@ export const Img = styled.img`
     height: auto;
   }
 `;
+
 export const HamburgerMenu = styled.div`
   display: none;
   flex-direction: column;
@@ -122,5 +123,4 @@ export const HamburgerMenu = styled.div`
   @media (max-width: 770px) {
     display: flex;
   }
-
 `;

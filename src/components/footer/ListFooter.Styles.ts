@@ -7,12 +7,10 @@ export const Content = styled.div`
   margin-top: 60px;
   margin-bottom: 60px;
   border-bottom: 1px solid #B2DFD0;
-  gap: 300px;
-
+  gap: 294px;
 
   @media (max-width: 1170px) { 
     margin-bottom: 10px;
-
   }
 ;
 
@@ -33,7 +31,7 @@ export const Social = styled.div`
   ul {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
   }
 
   li {

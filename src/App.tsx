@@ -6,11 +6,9 @@ import  Footer  from './components/footer/Footer';
 function App() {
   return (
     <C.Container>
-
         <Header />
         <Main/>
         <Footer/>
-
     </C.Container>
   );
 }
