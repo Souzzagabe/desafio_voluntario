@@ -48,9 +48,7 @@ Este teste cobre a renderização básica do componente Footer, garantindo que e
 ____________________________________________________________________________________________________________________________________
 
 
-# Desafio desse projeto
-
-### O desafio consiste em: ✨
+### <h1>Descrição do desafio desse projeto: </h1> 
 
 ### **O que fazer e qual objetivo do nosso desafio:**
 
