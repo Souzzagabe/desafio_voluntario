@@ -46,7 +46,7 @@
 
 <h1>Responsividade:</h1>
 
-![capa-desafio-1](https://github.com/Souzzagabe/desafio_voluntario/assets/123908995/6269f565-1883-4ffe-875b-bf1289cd9ec1)
+![capa-desafio-1](https://github.com/Souzzagabe/desafio_voluntario/assets/123908995/c2e9f636-833a-4018-a2a0-153c06e65396)
 
 
 
