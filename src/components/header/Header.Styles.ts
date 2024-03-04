@@ -13,6 +13,7 @@ export const Header = styled.div`
     padding: 24px 20px;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
   }
 
   @media (min-width: 955px) {
@@ -25,7 +26,7 @@ export const Nav = styled.nav`
   height: 48px;
   align-items: center;
   display: flex;
- 
+
   button {
     margin-left: 16px;
     width: 117px;
@@ -71,23 +72,23 @@ export const Nav = styled.nav`
   }
 
   @media (max-width: 770px) {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  width: 98%;
-  margin-top: 40px;
-  padding: 40px;
-  background-color: #fff;
-  height: 400px;
-  z-index: 10;
-  border-left: 4px solid #018762;
-  border-right: 4px solid #018762;
-  border-bottom: 4px solid #018762;
-  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3),
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #fff;
+    height: 400px;
+    z-index: 10;
+    border-left: 4px solid #018762;
+    border-right: 4px solid #018762;
+    border-bottom: 4px solid #018762;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3),
     1px 2px 0px rgba(0, 0, 0, 0.3),
     1px 20px 20px rgba(0, 0, 0, 0.3);
-  border-radius: 0px 0px 8px 8px;
-  border-top: none;
+    border-radius: 0px 0px 8px 8px;
+    border-top: none;
 
     button {
       margin: 10px 0;
@@ -102,7 +103,6 @@ export const Nav = styled.nav`
   @media (max-width: 955px) {
     button {
       font-size: 16px;
-      
     }
   }
 `;
@@ -135,5 +135,6 @@ export const HamburgerMenu = styled.div`
 
   @media (max-width: 770px) {
     display: flex;
+    top: auto;
   }
 `;

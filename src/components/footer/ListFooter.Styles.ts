@@ -3,17 +3,15 @@ import styled from "styled-components";
 export const Content = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 233px;;
+  height: 233px;
   margin-top: 60px;
   margin-bottom: 60px;
-  border-bottom: 1px solid #B2DFD0;
+  border-bottom: 1px solid #b2dfd0;
   gap: 205px;
 
-  @media (max-width: 1170px) { 
+  @media (max-width: 1170px) {
     margin-bottom: 10px;
   }
-;
-
   @media (max-width: 1122px) {
     display: flex;
     flex-direction: column;
@@ -41,7 +39,6 @@ export const Social = styled.div`
   @media (max-width: 1124px) {
     align-items: center;
   }
-  
 `;
 
 export const Links = styled.div`
@@ -67,7 +64,6 @@ export const Links = styled.div`
     font-size: 1rem;
     line-height: 40px;
     color: rgb(31, 31, 31);
-    
   }
 
   @media (max-width: 790px) {

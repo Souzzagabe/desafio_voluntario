@@ -3,7 +3,7 @@ import imgMain from "../../assets/images/imgMain.jpg";
 
 const Main = () => {
   return (
-    <C.Main data-testid="main"> {/* Adicionando test ID ao componente Main */}
+    <C.Main data-testid="main">
       <C.Content>
         <C.Text>
           <h1>Junte-se à nossa comunidade</h1>

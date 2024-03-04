@@ -4,7 +4,7 @@ import btnScroll from "../../../assets/images/btnscroll.png";
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: "smooth"
+    behavior: "smooth",
   });
 };
 
