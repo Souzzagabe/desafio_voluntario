@@ -2,41 +2,49 @@
 
 
 
+<h1>Testes realizados nos componentes projeto:</h1>
 
+<h3>App:</h3>
 
-Testes realizados nos componentes projeto:
+<h4>Resultado Esperado:</h4>
+<p>
+  Componente App é renderizado corretamente, com os elementos 'header', 'main' e
+  'footer' presentes. Este teste verifica a integridade da renderização do
+  componente App, garantindo uma boa cobertura dos elementos principais. O teste
+  verifica se os elementos essenciais estão presentes na renderização do
+  componente App, atendendo aos requisitos de integridade da interface.
+</p>
 
-App:
+<h3>Main:</h3>
 
-Resultado Esperado: 
-Componente App é renderizado corretamente, com os elementos 'header', 'main' e 'footer' presentes.
-Este teste verifica a integridade da renderização do componente App, garantindo uma boa cobertura dos elementos principais.
-O teste verifica se os elementos essenciais estão presentes na renderização do componente App, atendendo aos requisitos de integridade da interface.
+<h4>Resultado Esperado:</h4>
+<p>
+  O componente Main é renderizado corretamente, com os elementos de texto e a
+  imagem esperados. Este teste garante que os elementos principais do componente
+  Main estão presentes na renderização, incluindo o texto e a imagem. O teste
+  verifica se os elementos de texto e a imagem esperados estão presentes na
+  renderização do componente Main.
+</p>
 
+<h3>Header:</h3>
 
-Main:
+<h4>Resultados Esperados:</h4>
+<p>
+  O componente Header é renderizado corretamente, com o elemento do cabeçalho
+  presente. O menu é alternado adequadamente ao clicar no ícone do menu
+  "hamburger", adicionando a classe 'open' ao elemento de navegação.
+</p>
 
-Resultado Esperado: 
-O componente Main é renderizado corretamente, com os elementos de texto e a imagem esperados.
-Este teste garante que os elementos principais do componente Main estão presentes na renderização, incluindo o texto e a imagem.
-O teste verifica se os elementos de texto e a imagem esperados estão presentes na renderização do componente Main.
+<h3>Footer:</h3>
 
-Header:
+<h4>Resultado Esperado:</h4>
+<p>
+  O componente Footer é renderizado corretamente, com o elemento do rodapé
+  presente na interface. Este teste cobre a renderização básica do componente
+  Footer, garantindo que ele seja exibido corretamente na interface.
+</p>
 
-Resultados Esperados:
-O componente Header é renderizado corretamente, com o elemento do cabeçalho presente.
-O menu é alternado adequadamente ao clicar no ícone do menu "hamburger", adicionando a classe 'open' ao elemento de navegação.
-
-Footer:
-
-Resultado Esperado: 
-O componente Footer é renderizado corretamente, com o elemento do rodapé presente na interface.
-Este teste cobre a renderização básica do componente Footer, garantindo que ele seja exibido corretamente na interface.
-
-
-
-<h1> Responsividade: </h1>
-
+<h1>Responsividade:</h1>
 
 ![capa-desafio-1](https://github.com/Souzzagabe/desafio_voluntario/assets/123908995/6269f565-1883-4ffe-875b-bf1289cd9ec1)
 
