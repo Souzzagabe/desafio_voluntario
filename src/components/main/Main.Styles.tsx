@@ -21,8 +21,6 @@ export const Content = styled.div`
     gap: 0;
     margin-top: 80px;
   }
-
-
 `;
 
 export const Text = styled.div`

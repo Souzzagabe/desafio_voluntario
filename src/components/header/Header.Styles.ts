@@ -43,6 +43,18 @@ export const Nav = styled.nav`
     background-color: transparent;
   }
 
+  button:nth-child(1) {
+    width: 174px;
+  }
+
+  button:nth-child(2) {
+    width: 114px;
+  }
+
+  button:nth-child(3) {
+    width: 117px;
+  }
+
   button:nth-child(-n + 2):hover {
     background-color: #e6f3ef;
   }
@@ -77,7 +89,6 @@ export const Nav = styled.nav`
   border-radius: 0px 0px 8px 8px;
   border-top: none;
 
-
     button {
       margin: 10px 0;
       width: 100%;
@@ -91,6 +102,7 @@ export const Nav = styled.nav`
   @media (max-width: 955px) {
     button {
       font-size: 16px;
+      
     }
   }
 `;
