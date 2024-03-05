@@ -1,11 +1,15 @@
-import { render } from "@testing-library/react";
-import Footer from "./Footer";
+import { render } from '@testing-library/react';
+import Footer from './Footer';
 
-describe("Footer Component", () => {
-  it("renders footer component", () => {
-    const { getByTestId } = render(<Footer />);
+test('renders Footer component correctly', () => {
+  const { getByTestId } = render(<Footer />);
+  
+  const footerElement = getByTestId('footer');
+  expect(footerElement).toBeInTheDocument();
 
-    const footerElement = getByTestId("footer");
-    expect(footerElement).toBeTruthy();
-  });
+  const listFooterElement = getByTestId('list-footer');
+  expect(listFooterElement).toBeInTheDocument();
+
+  const infoFooterElement = getByTestId('info-footer');
+  expect(infoFooterElement).toBeInTheDocument();
 });

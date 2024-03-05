@@ -7,7 +7,7 @@ import instagram from "../../assets/images/instagram.png";
 
 const ListFooter = () => {
   return (
-    <C.Content>
+    <C.Content data-testid="list-footer">
       <C.Social>
         <C.Img src={footerImg} alt="" />
         <ul>

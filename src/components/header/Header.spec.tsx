@@ -1,18 +1,26 @@
 import { render, fireEvent } from '@testing-library/react';
 import Header from './Header';
 
-describe('Header Component', () => {
-  it('renders header component', () => {
-    const { getByTestId } = render(<Header />);
-    const headerElement = getByTestId('header');
-    expect(headerElement).toBeTruthy();
-  });
+test('renders Header component correctly', () => {
+  const { getByTestId, getByAltText, getByText } = render(<Header />);
+  
+  const headerElement = getByTestId('header');
+  expect(headerElement).toBeInTheDocument();
 
-  it('toggles menu when hamburger menu is clicked', () => {
-    const { getByTestId } = render(<Header />);
-    const hamburgerMenu = getByTestId('hamburger-menu');
-    fireEvent.click(hamburgerMenu);
-    const navElement = getByTestId('nav');
-    expect(navElement.className).toContain('open');
-  });
+  const logoElement = getByAltText('Logo Lacrei Saúde');
+  expect(logoElement).toBeInTheDocument();
+
+  const navElement = getByTestId('nav');
+  expect(navElement).not.toHaveClass('open');
+
+  const hamburgerMenuElement = getByTestId('hamburger-menu');
+  expect(hamburgerMenuElement).toBeInTheDocument();
+
+  fireEvent.click(hamburgerMenuElement);
+
+  expect(navElement).toHaveClass('open');
+
+  expect(getByText('Quem Somos')).toBeInTheDocument();
+  expect(getByText('Ajuda')).toBeInTheDocument();
+  expect(getByText('Entrar')).toBeInTheDocument();
 });

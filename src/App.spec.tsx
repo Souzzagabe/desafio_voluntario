@@ -6,9 +6,8 @@ describe('App component', () => {
 
     const { getByTestId } = render(<App />);
     
-    expect(getByTestId('header')).toBeTruthy();
-    expect(getByTestId('main')).toBeTruthy();
-    expect(getByTestId('footer')).toBeTruthy();
+    expect(getByTestId('header')).toBeInTheDocument();
+    expect(getByTestId('main')).toBeInTheDocument(); 
+    expect(getByTestId('footer')).toBeInTheDocument(); 
   });
 });
-

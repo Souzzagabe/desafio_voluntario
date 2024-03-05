@@ -10,7 +10,7 @@ const scrollToTop = () => {
 
 const InfoFooter = () => {
   return (
-    <C.Infos>
+    <C.Infos  data-testid="info-footer">
       <C.InfosText>
         <p>
           A Lacrei não oferece tratamento médico emergencial. Em caso de
