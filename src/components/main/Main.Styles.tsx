@@ -106,11 +106,11 @@ export const ButtonMain = styled.div`
     border: 2px solid #018762;
     transition: background-color 1s ease;
     
-    &:hover {
+    /* &:hover {
       background-color: #018762;
       border-color: white;
       color: white;
-    }
+    } */
   }
 
   @media (max-width: 1122px) {
