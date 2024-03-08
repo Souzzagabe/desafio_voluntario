@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import Main from './Main';
 
-test('renders Main component correctly', () => {
+describe('renders Main component correctly', () => {
   const { getByTestId, getByText, getByAltText } = render(<Main />);
   
   const mainElement = getByTestId('main');

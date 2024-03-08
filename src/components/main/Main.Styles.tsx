@@ -4,6 +4,7 @@ export const Main = styled.main`
   background-color: linear-gradient(180deg, #F5FFFB 0%, #FFFFFF 100%);
   margin-top: 48px;
 ;
+
 @media (max-width: 770px) {
     margin-top: 0;
   }
@@ -105,12 +106,6 @@ export const ButtonMain = styled.div`
     background-color: #ffffff;
     border: 2px solid #018762;
     transition: background-color 1s ease;
-    
-    /* &:hover {
-      background-color: #018762;
-      border-color: white;
-      color: white;
-    } */
   }
 
   @media (max-width: 1122px) {
