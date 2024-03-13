@@ -94,6 +94,7 @@ export const Nav = styled.nav`
     1px 20px 20px rgba(0, 0, 0, 0.3);
     border-radius: 0px 0px 8px 8px;
     border-top: none;
+    justify-content: center;
 
     button {
       margin: 10px 0;
