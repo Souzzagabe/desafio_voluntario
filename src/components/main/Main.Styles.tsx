@@ -29,10 +29,12 @@ export const Text = styled.div`
   width: 488px;
   height: 330px;
 
+
   h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 57px;
+    margin-top: 20px;
   }
 
   p {

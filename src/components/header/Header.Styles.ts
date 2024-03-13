@@ -13,11 +13,16 @@ export const Header = styled.div`
     padding: 24px 20px;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    
+    
   }
 
   @media (min-width: 955px) {
     padding: 24px 162px;
+  }
+
+  @media (max-width: 770px) {
+    
   }
 `;
 
@@ -73,11 +78,11 @@ export const Nav = styled.nav`
 
   @media (max-width: 770px) {
     display: none;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     width: 100%;
-    margin-top: 320px;
-    padding: 40px;
+    margin-top: 40px;
+    padding: 15px;
     background-color: #fff;
     height: 400px;
     z-index: 10;
