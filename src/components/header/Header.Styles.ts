@@ -23,7 +23,7 @@ export const Header = styled.div`
 
 export const Nav = styled.nav`
   width: 437px;
-  height: 48px;
+  height: 21px;
   align-items: center;
   display: flex;
 
@@ -75,8 +75,8 @@ export const Nav = styled.nav`
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 98%;
-    margin-top: 40px;
+    width: 85%;
+    margin-top: 100px;
     padding: 40px;
     background-color: #fff;
     height: 400px;
