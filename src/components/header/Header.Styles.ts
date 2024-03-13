@@ -75,7 +75,7 @@ export const Nav = styled.nav`
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 99%;
+    width: 100%;
     margin-top: 320px;
     padding: 40px;
     background-color: #fff;
