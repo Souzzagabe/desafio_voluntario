@@ -22,7 +22,7 @@ export const Header = styled.div`
   }
 
   @media (max-width: 770px) {
-    
+   
   }
 `;
 
@@ -122,6 +122,10 @@ export const Img = styled.img`
     width: 150px;
     height: auto;
   }
+  @media (max-width: 770px) {
+    margin-top: 7px;
+  }
+  
 `;
 
 export const HamburgerMenu = styled.div`
